@@ -1,0 +1,280 @@
+/* Home */
+#home{ 
+    position: absolute;
+    background: url('images/back.jpg')center;
+    height: 40rem;
+    width: 100%;
+}
+
+#home h1{
+    margin-top: 10rem;
+    font-size: 4em;
+    font-family: 'Bree Serif', serif;
+    font-style: italic;
+    position: relative;
+}
+
+#home p{
+    font-size: 1.5em;
+    font-family: 'Bree Serif', serif;
+    position: relative;
+}
+
+#home button{
+    position: relative;
+}
+
+
+/* Services */
+#services{
+    margin-top: 40rem;
+    height: 35rem;
+}
+
+#services h1{
+    font-family:'Bree Serif', serif;
+    font-size: 4em;
+}
+
+
+
+.servicesCard{
+    display: inline-block;
+    width: 25%;
+    margin-left: 5%;
+}
+
+
+/* About us */
+#aboutus{
+    margin-top: 15rem;
+    height: 20rem;
+    background-color: #3b3737;   
+}
+
+#aboutus h1{
+    font-family:'Bree Serif', serif;
+    font-size: 4em;
+}
+
+#aboutus p{
+    display: inline-block;
+    padding: 2%;
+    width: 30%;
+    font-size: 1em;
+    font-family: 'Bree Serif', serif;
+}
+
+/* clients */
+#clients{
+    height: 20rem;
+
+}
+
+#clients h1{
+    font-family:'Bree Serif', serif;
+    font-size: 4em;
+}
+
+#clients img{
+    margin: 0 2%;
+    width: 8%;
+}
+
+
+/* contact us */
+#contact{
+    height: 28rem;
+    background-color: #3b3737;   
+}
+
+#contact h1{
+    font-family:'Bree Serif', serif;
+    font-size: 4em;
+}
+
+#contact form{
+    width: 30rem;
+    align-self: center;
+}
+
+
+/*Screen less than 800 px*/
+@media only screen and (max-width: 800px) {
+    /* Services */
+    .servicesCard{
+        display: block;
+        width: 75%;    
+        margin-top: 4%;
+        margin-right: 4%;
+    }
+
+    #services{
+        height: 115rem;
+    }
+
+    /* About us */
+    #aboutus{
+        height: 25em;
+     }
+    #aboutus p{
+        font-size: 1em;
+    }
+
+    /* clients */
+    #clients{
+        height: 15rem;
+
+    }
+
+    #clients h1{
+        font-size: 4em;
+    }
+
+    #clients img{
+        width: 15%;
+    }
+
+
+}
+
+
+/*Screen less than 645 px*/
+@media only screen and (max-width: 645px) {
+    /* Services */
+ 
+    #services{
+        height: 105rem;
+    }
+
+    /* About us */
+    #aboutus{
+        height: 30em;
+     }
+    #aboutus p{
+        font-size: 1em;
+        font-family: 'Bree Serif', serif;
+    }
+
+}
+
+/*Screen less than 575 px*/
+@media screen and (max-width: 575px) {
+   
+    
+     /* Services */
+     .servicesCard{
+        width:80%;    
+        margin-top: 4%;
+        margin-left: 10%;
+    }
+
+    #services{
+        height: 102rem;
+    }
+
+     /* About us */
+     #aboutus{
+        height: 30em;
+     }
+     #aboutus p{
+        font-size: 1em;
+        font-family: 'Bree Serif', serif;
+        margin-bottom: 2%;
+    }
+
+}
+
+/*Screen less than 575 px*/
+@media  screen and (max-width: 530px) {
+   
+    /* Home */
+    #home{ 
+        height: 40rem;
+    }
+
+    #home h1{
+        margin-top: 25%;
+        font-size: 3.5em;
+    }
+
+    #home p{
+        font-size: 1.2em;
+        
+    }
+
+    #home button{
+        position: relative;
+        width: 30%;
+    }
+
+    /* Services */
+    .servicesCard{
+       width:80%;    
+       margin-top: 2%;
+       margin-left: 10%;
+   }
+
+   #services{
+       height: 100rem;
+   }
+
+
+
+    /* About us */
+    #aboutus{
+       height: 30em;
+    }
+    #aboutus p{
+       font-size: 1em;
+       font-family: 'Bree Serif', serif;
+       margin-bottom: 2%;
+   }
+
+}
+
+/*Screen less than 500 px*/
+ @media  screen and (max-width: 500px) {
+   
+    /* Services */
+     .servicesCard{
+       display: block;
+       width:80%;    
+       margin-top: 4%;
+       margin-left: 10%;
+   }
+
+   #services{
+       height: 95rem;
+   }
+
+    /* About us */
+     #aboutus{
+       height: 30em;
+    }
+    #aboutus p{
+        display: block;
+        width: 99%;
+        font-size: 1em;
+        
+   }
+
+}
+
+/*Screen less than 390px*/
+@media  screen and (max-width: 390px) {
+   
+    /* Services */
+ 
+   #services{
+       height: 100rem;
+   }
+
+   /* Contacts */
+   #contact form{
+    width: 20rem;
+ 
+}
+
+
+} 
